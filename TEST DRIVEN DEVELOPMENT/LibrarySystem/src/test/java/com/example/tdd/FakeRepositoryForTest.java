@@ -12,7 +12,10 @@ public class FakeRepositoryForTest extends BookRepository implements IBookReposi
                 new Book("1", "Test Driven Development", "Kent Beck"),
                 new Book("2", "Clean Code", "Robert C. Martin"),
                 new Book("3", "Effective Java", "Joshua Bloch"),
-                new Book("4", "Refactoring", "Martin Fowler")
+                new Book("4", "Refactoring", "Martin Fowler"),
+                new Book("5", "Clean Architecture", "Robert C. Martin")
         );
     }
+
 }
+
